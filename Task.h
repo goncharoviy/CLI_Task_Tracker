@@ -25,6 +25,9 @@ private:
     std::string description;
     tm creating_time;
 public:
+    void task_adding(uint task_number);
+    void task_editing(uint task_number ...);
+    void task_closing();
 };
 
 }
